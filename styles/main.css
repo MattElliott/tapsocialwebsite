@@ -2,6 +2,13 @@ body {
 	padding-top:75px;
 }
 
+.footer {
+	border-top-width: 2px;
+	border-top-style: double;
+	margin-top: 20px;
+	padding: 10px;
+}
+
 #index {
 	background: url("../images/bgbw.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -65,6 +72,24 @@ body {
 
 .media-icons{
 	padding-left:10px;
+}
+
+.footer > div > blockquote {
+	margin-bottom: 10px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .darkbg > p{
