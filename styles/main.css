@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'Agency Bold';
+    src: url('../agencyfb-bold.woff') format('woff'),
+    url('../agencyfb-bold.ttf') format('truetype')
+}
+
 body {
 	padding-top:75px;
+}
+
+p {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 .footer {
@@ -14,7 +24,7 @@ body {
 }
 
 #index {
-	background: url("../images/bgbw.jpg") no-repeat center center fixed;
+	background: url("../images/brewerypic2b.png") no-repeat center center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,7 +37,7 @@ body {
 }
 .navbar-inverse .navbar-brand {
 	color: #C1D92A;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Agency Bold', sans-serif;
 	font-weight: bold;
 	font-size: x-large;
 	letter-spacing: 1px;
@@ -43,7 +53,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Agency Bold', sans-serif;
 	font-weight:lighter;
 	text-transform: uppercase;
 }
@@ -51,7 +61,7 @@ body {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
 	color: #C1D92A;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Agency Bold', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -69,9 +79,14 @@ body {
 }
 
 .strapline {
-	font-family:'Oswald', sans-serif;
-	font-size: larger;
+	color: black;
+	font-family:'Agency Bold', sans-serif;
+	font-size: x-large;
 	margin-top:10px;
+}
+
+.secondary {
+	font-size: large;
 }
 
 .media-icons{
@@ -110,7 +125,7 @@ body {
 
 .page-header > h1 {
 	color: white;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Agency Bold', sans-serif;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-align: center;
