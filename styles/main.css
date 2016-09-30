@@ -9,7 +9,7 @@ body {
 }
 
 p {
-	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: 'Tahoma', Geneva, sans-serif;
 }
 
 .footer {
@@ -85,6 +85,11 @@ p {
 	margin-top:10px;
 }
 
+.strapline-gr {
+	color: #C1D92A;
+	margin-top:-15px;
+}
+
 .secondary {
 	font-size: large;
 }
@@ -95,20 +100,6 @@ p {
 
 .footer > div > blockquote {
 	margin-bottom: 10px;
-}
-
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
 }
 
 .darkbg > p{
@@ -131,7 +122,9 @@ p {
 	text-align: center;
 }
 
-.gallery {
+.panel-footer {
 	border-width: 2px;
 	border-color: #C1D92A;
+	background: #222;
+	color: white;
 }
