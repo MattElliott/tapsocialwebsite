@@ -1,7 +1,26 @@
 @font-face {
-    font-family: 'Agency Bold';
-    src: url('../agencyfb-bold.woff') format('woff'),
-    url('../agencyfb-bold.ttf') format('truetype')
+    font-family: 'HGRegular';
+    src: url('../HansGrotesque-Regular.otf') format('opentype')
+}
+@font-face {
+    font-family: 'HGLight';
+    src: url('../HansGrotesque-Light.otf') format('opentype')
+}
+@font-face {
+    font-family: 'HGBold';
+    src: url('../HansGrotesque-Bold.otf') format('opentype')
+}
+@font-face {
+    font-family: 'HGMedium';
+    src: url('../HansGrotesque-Medium.otf') format('opentype')
+}
+@font-face {
+    font-family: 'HGSemibold';
+    src: url('../HansGrotesque-SemiBold.otf') format('opentype')
+}
+@font-face {
+    font-family: 'HGExtrabold';
+    src: url('../HansGrotesque-ExtraBold.otf') format('opentype')
 }
 
 body {
@@ -9,22 +28,24 @@ body {
 }
 
 p {
-	font-family: 'Tahoma', Geneva, sans-serif;
+	font-family: 'HGRegular', sans-serif;
 }
 
 .footer {
 	border-top-width: 2px;
 	border-top-style: groove;
+	font-family:'HGRegular', sans-serif;
 	margin-top: 20px;
 	padding: 20px;
 }
 
 .footer-icons {
 	padding-bottom:10px;
+	padding-left:90px;
 }
 
 #index {
-	background: url("../images/brewerypic2b.png") no-repeat center center fixed;
+	background: url("../images/bgbw.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,7 +58,7 @@ p {
 }
 .navbar-inverse .navbar-brand {
 	color: #C1D92A;
-	font-family: 'Agency Bold', sans-serif;
+	font-family: 'HGExtraBold', sans-serif;
 	font-weight: bold;
 	font-size: x-large;
 	letter-spacing: 1px;
@@ -53,7 +74,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	font-family: 'Agency Bold', sans-serif;
+	font-family: 'HGBold', sans-serif;
 	font-weight:lighter;
 	text-transform: uppercase;
 }
@@ -61,7 +82,7 @@ p {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
 	color: #C1D92A;
-	font-family: 'Agency Bold', sans-serif;
+	font-family: 'HGExtraBold', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -79,8 +100,8 @@ p {
 }
 
 .strapline {
-	color: black;
-	font-family:'Agency Bold', sans-serif;
+	color: white;
+	font-family:'HGSemiBold', sans-serif;
 	font-size: x-large;
 	margin-top:10px;
 }
@@ -116,7 +137,7 @@ p {
 
 .page-header > h1 {
 	color: white;
-	font-family: 'Agency Bold', sans-serif;
+	font-family: 'HGExtraBold', sans-serif;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-align: center;
